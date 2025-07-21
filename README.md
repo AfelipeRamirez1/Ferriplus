@@ -1,23 +1,3 @@
-# Proyecto Ferriplus
-
-Este es un sistema de gestión para una ferretería, diseñado para manejar diversas operaciones como productos, ventas, empleados, clientes, proveedores y envíos. El proyecto pone un fuerte énfasis en la **integridad y lógica de la base de datos**, utilizando características avanzadas como **vistas, triggers y roles/usuarios** para asegurar la consistencia de los datos y la gestión de permisos.
-
----
-
-## 🚀 Tecnologías Utilizadas
-
-* **Lenguaje de Programación:** Java
-* **Sistema de Construcción:** Apache Ant
-* **Base de Datos:** MySQL
-* **Conector JDBC:** MySQL Connector/J
-
----
-
-## 📂 Estructura del Proyecto
-
-Aquí tienes el código actualizado del README.md con los nombres de tus archivos SQL. He ajustado el orden y los nombres para que coincidan con la imagen que me proporcionaste.
-
-Markdown
 
 # Proyecto Ferriplus
 
@@ -31,31 +11,6 @@ Este es un sistema de gestión para una ferretería, diseñado para manejar dive
 * **Sistema de Construcción:** Apache Ant
 * **Base de Datos:** MySQL
 * **Conector JDBC:** MySQL Connector/J
-
----
-
-## 📂 Estructura del Proyecto
-
-ProyectoFerriplus/
-├── db/                       # Contiene todos los scripts SQL para la base de datos
-│   ├── 01_Ferriplus_Crear.sql # Definición de tablas y relaciones
-│   ├── 02_Indices_pro.sql    # Creación de índices (si aplica)
-│   ├── 03_Usuarios_vistas_permisos.sql # Definición de usuarios, roles, vistas y sus permisos
-│   ├── 04_Procedimientos.sql # Procedimientos almacenados (si aplica)
-│   └── 05_Triggers_pro.sql   # Triggers para automatizar lógica de negocio y asegurar integridad
-│
-├── libraries/                # Librerías de terceros (ej. MySQL Connector/J)
-│   └── mysql-connector-j-X.Y.Z.jar # El driver JDBC para MySQL (donde X.Y.Z es la versión)
-│
-├── src/                      # Código fuente de la aplicación Java
-│   └── proyectobases/        # Paquete principal con clases como Conexion.java, etc.
-│       └── ...
-│
-├── nbproject/                # Archivos de configuración de NetBeans
-├── build.xml                 # Script principal de construcción de Apache Ant
-├── .gitignore                # Reglas para Git sobre qué archivos ignorar
-└── README.md                 # Este archivo de documentación
-
 
 ---
 
