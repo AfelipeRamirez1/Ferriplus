@@ -1,0 +1,23 @@
+# Archivos de NetBeans
+nbproject/private/
+nbbuild/
+
+# Archivos de compilación de Java
+*.class
+
+# Archivos de salida de Ant
+dist/
+build/
+
+# Archivos específicos de entornos/IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+temp/
